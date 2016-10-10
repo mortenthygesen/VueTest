@@ -35,5 +35,11 @@
                 "scss/font-awesome.scss"
             ]
         }
+        ,
+        "vue": {
+            "main": [
+                "dist/vue.js"
+            ]
+        }
     }
 }

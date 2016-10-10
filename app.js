@@ -18,7 +18,9 @@ app.set('view engine', 'ejs');
 
 app.use('/books', bookRouter);
 app.use('/admin', adminRouter);
-
+app.use('/authors', function(req,res){
+    res.render('authors', { nav: nav});
+});
 app.get('/', function (req, res) {
     res.render('index', {
         list: [{
