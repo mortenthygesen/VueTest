@@ -114,5 +114,3 @@ var vueapp8 = new Vue({
     }
   }
 });
-
-console.log(vueapp8);
